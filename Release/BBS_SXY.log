@@ -1,0 +1,42 @@
+﻿生成启动时间为 5/23/2017 6:37:07 PM。
+     1>项目“D:\projects\vs\BBS_SXY\BBS_SXY\BBS_SXY.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\RJ\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt BBS.cpp
+         BBS.cpp
+     1>D:\RJ\OPENCV3\opencv\build\include\opencv2/core/mat.hpp(1965): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\RJ\OPENCV3\opencv\build\include\opencv2/core/persistence.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\RJ\OPENCV3\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>D:\RJ\OPENCV3\opencv\build\include\opencv2/core/utility.hpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>BBS.cpp(27): warning C4838: 从“double”转换到“float”需要收缩转换
+     1>BBS.cpp(27): warning C4305: “初始化”: 从“double”到“float”截断
+     1>BBS.cpp(33): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>BBS.cpp(121): warning C4018: “<”: 有符号/无符号不匹配
+     1>BBS.cpp(128): warning C4018: “<”: 有符号/无符号不匹配
+     1>BBS.cpp(131): warning C4018: “<”: 有符号/无符号不匹配
+     1>BBS.cpp(140): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>BBS.cpp(143): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>BBS.cpp(149): warning C4018: “<”: 有符号/无符号不匹配
+     1>BBS.cpp(151): warning C4018: “<”: 有符号/无符号不匹配
+     1>BBS.cpp(159): warning C4018: “<”: 有符号/无符号不匹配
+     1>BBS.cpp(283): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+       Link:
+         D:\RJ\Microsoft Visual Studio 14.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\projects\vs\BBS_SXY\Release\BBS_SXY.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"D:\projects\vs\BBS_SXY\Release\BBS_SXY.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\projects\vs\BBS_SXY\Release\BBS_SXY.lib" /MACHINE:X86 /SAFESEH Release\BBS.obj
+     1>BBS.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::imshow(class cv::String const &,class cv::_InputArray const &)" (?imshow@cv@@YAXABVString@1@ABV_InputArray@1@@Z)
+     1>BBS.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::hconcat(class cv::_InputArray const &,class cv::_InputArray const &,class cv::_OutputArray const &)" (?hconcat@cv@@YAXABV_InputArray@1@0ABV_OutputArray@1@@Z)
+     1>BBS.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@QAEXABV12@@Z)
+     1>BBS.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)
+     1>BBS.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::create(int,int const *,int)" (?create@Mat@cv@@QAEXHPBHH@Z)
+     1>BBS.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::convertTo(class cv::_OutputArray const &,int,double,double)const " (?convertTo@Mat@cv@@QBEXABV_OutputArray@2@HNN@Z)
+     1>BBS.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::copyTo(class cv::_OutputArray const &)const " (?copyTo@Mat@cv@@QBEXABV_OutputArray@2@@Z)
+     1>BBS.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall cv::Mat::Mat(class cv::Mat const &,class cv::Rect_<int> const &)" (??0Mat@cv@@QAE@ABV01@ABV?$Rect_@H@1@@Z)
+     1>BBS.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)
+     1>BBS.obj : error LNK2001: 无法解析的外部符号 "class cv::Mat __cdecl cv::imread(class cv::String const &,int)" (?imread@cv@@YA?AVMat@1@ABVString@1@H@Z)
+     1>BBS.obj : error LNK2001: 无法解析的外部符号 "private: void __thiscall cv::String::deallocate(void)" (?deallocate@String@cv@@AAEXXZ)
+     1>BBS.obj : error LNK2001: 无法解析的外部符号 "private: char * __thiscall cv::String::allocate(unsigned int)" (?allocate@String@cv@@AAEPADI@Z)
+     1>BBS.obj : error LNK2001: 无法解析的外部符号 "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+     1>D:\projects\vs\BBS_SXY\Release\BBS_SXY.exe : fatal error LNK1120: 13 个无法解析的外部命令
+     1>已完成生成项目“D:\projects\vs\BBS_SXY\BBS_SXY\BBS_SXY.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:01.81
